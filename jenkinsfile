@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         SERVER_IP      = '172.31.2.135'
-        SSH_CREDENTIAL = 'Food-pipeline-key'
-        REPO_URL       = 'https://github.com/iamsakshithorat/FoodHub-Restaurant-Website.git'   // apna actual HTML repo URL daalein
+        SSH_CREDENTIAL = 'Shop-pipeline-key'
+        REPO_URL       = 'https://github.com/iamsakshithorat/ShopEase-website.git'   // apna actual HTML repo URL daalein
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
         NGINX_WEB_ROOT = '/var/www/html/shopease'   // nginx ka default web root (Ubuntu pe ye hi hota hai)
